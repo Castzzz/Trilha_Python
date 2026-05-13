@@ -4,11 +4,11 @@ Projeto em python que ajuda a ver e planejar os custos de uma viagem para Europa
 
 ## Como usar
 
-1 - Execute o arquivo calculadora_viagem.py
-2 - Insira o destino, orçamento, custo da passagem (reais), custo diario (euros) e a duração da viagem
-3 - O programa vai exibir um resumo e se a viagem é viável ou não.
+#### 1 - Execute o arquivo calculadora_viagem.py
+#### 2 - Insira o destino, orçamento, custo da passagem (reais), custo diario (euros) e a duração da viagem
+#### 3 - O programa vai exibir um resumo e se a viagem é viável ou não.
 
-## Reespostas Perguntas
+## Respostas Perguntas
 
 ### 1 - O git.add adiciona todos os arquivos modificados a área de "staging". Já o git.commit -m registra as alterações que estão no "staging" no histórico do repositório com uma mensagem.
 
