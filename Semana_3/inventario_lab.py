@@ -18,14 +18,16 @@ purezas = [99.5, 92.0, 99.5, 98.0, 99.9, 98.5, 96.0, 99.0, 99.0, 98.8, 99.5, 92.
 
 #remove as duplicações de reagentes
 reagentes_unicos = set(reagentes)
-print("Quantidade de reagentes únicos:", len(reagentes_unicos))
+print(f"Quantidade de reagentes únicos: {len(reagentes_unicos)}")
 
 #estruturação do inventário
 inventario = list(zip(reagentes, lotes, purezas))
 
-print("\nInventario organizado:\n")
+print("\nInventario organizado:")
 
 #exibe o inventário organizado
 for reagente, lote, pureza in inventario:
     print(f"Reagente: {reagente} | Lote: {lote} | Pureza: {pureza}%")
 
+lotes_aprovados = [lote for reagente, lote, pureza in inventario if pureza >= 98]
+print(f"\nLotes aprovados: {lotes_aprovados}")
