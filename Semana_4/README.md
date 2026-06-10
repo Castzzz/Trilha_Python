@@ -8,3 +8,9 @@ Código em Python pra automatizar a criação e remoção de arquivos '.gitkeep'
 #### 2 - Clone o repositório para o seu pc
 #### 3 - Coloque o 'main.py' na raiz do repositório
 #### 4 - Execute o arquivo 'main.py' e veja no terminal a quantidade de arquivos criados ou removidos
+
+## Respostas Perguntas
+
+### 1 - Diferença entre json.dump() e json.dumps(): O json.dump() escreve diretamente em um arquivo enquanto o json.dumps() retorna uma string json.
+
+### 2 - Diferença entre json.load() e json.loads(): O json.load() lê de um arquivo enquanto o json.loads() lê de uma string json.
